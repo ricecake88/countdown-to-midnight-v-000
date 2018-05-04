@@ -8,7 +8,7 @@ end
 def countdown(time)
   i = time
   while i >= 0
-    coutndown_with_sleep(1000)
+    countdown_with_sleep(1000)
     puts "#{number} SECONDS!"
     i-=1
   end
