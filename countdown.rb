@@ -9,7 +9,7 @@ def countdown(time)
   i = time
   while i >= 0
     countdown_with_sleep(1000)
-    puts "#{number} SECONDS!"
+    puts "#{i} SECONDS!"
     i-=1
   end
   return "HAPPY NEW YEAR!"
