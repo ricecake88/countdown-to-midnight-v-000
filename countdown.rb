@@ -1,4 +1,17 @@
 #write your code here
 
-def countdown
+def countdown_with_sleep(seconds)
+  seconds.times do
+  end
 end
+
+def countdown(time)
+  i = time
+  while i >= 0
+    puts "#{number} SECONDS!"
+    i-=1
+  end
+  return "HAPPY NEW YEAR!"
+end
+
+
